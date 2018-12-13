@@ -29,11 +29,15 @@
   background-color: $stopwatch-button-start-color
   color: $stopwatch-button-start-content-color
 
+.stop
+  background-color: $stopwatch-button-stop-color
+  color: lighten($stopwatch-button-stop-color, 25%)
+
 .reset
   background-color: $stopwatch-button-reset-color
   color: darken($stopwatch-button-reset-content-color, 7%)
 
-.start, .reset
+.start, .stop, .reset
   opacity: .6
   transition: .2s ease-in-out
   &:hover

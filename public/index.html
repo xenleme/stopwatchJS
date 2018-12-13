@@ -6,18 +6,20 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
-  <script src="stopwatch.js"></script>
   <title>Stopwatch</title>
 </head>
 <body>
   <div class="container">
     <div class="stopwatch">
-      <span class="stopwatch-digits">00:00:00</span>
+      <span class="stopwatch-digits" id="stopwatchDigits">00:00:00</span>
     </div>
     <div class="control-buttons">
-      <button class="control-button reset" id="resetControl">Reset</button>
-      <button class="control-button start" id="startOrStopControl">Start</button>
+      <button class="control-button reset" id="resetControl" onclick="reset()">Reset</button>
+      <button class="control-button start" id="startOrStopControl" onclick="startStop()">Start</button>
     </div>
   </div>
+
+
+  <script src="stopwatch.js"></script>
 </body>
 </html>

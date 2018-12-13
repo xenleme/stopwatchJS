@@ -51,6 +51,7 @@ a {
   margin: 0 auto;
   padding-top: 180px;
   text-align: center;
+  background-color: aqua;
 }
 
 .stopwatch {
@@ -80,22 +81,17 @@ a {
   color: #ededed;
 }
 
-.stop {
-  background-color: #f24f4f;
-  color: #fbc6c6;
-}
-
 .reset {
   background-color: #797d7f;
   color: #dbdbdb;
 }
 
-.start, .stop, .reset {
+.start, .reset {
   opacity: .6;
   transition: .2s ease-in-out;
 }
 
-.start:hover, .stop:hover, .reset:hover {
+.start:hover, .reset:hover {
   opacity: .8;
   cursor: pointer;
 }
