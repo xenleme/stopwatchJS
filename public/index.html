@@ -10,6 +10,12 @@
 </head>
 <body>
   <div class="container">
+    <div class="subject">
+      <input type="text" id="subjectInput">
+      <button class="subject-btn" onclick="getSubject()">Add</button>
+      <button class="subject-btn-clear" onclick="removeOutput()">Clear</button>
+      <span class="subject-output" id="subjectOutput"></span>
+    </div>
     <div class="stopwatch">
       <span class="stopwatch-digits" id="stopwatchDigits">00:00:00</span>
     </div>
@@ -19,7 +25,7 @@
     </div>
   </div>
 
-
-  <script src="stopwatch.js"></script>
+  <script src="js/stopwatch.js"></script>
+  <script src="js/subject.js"></script>
 </body>
 </html>

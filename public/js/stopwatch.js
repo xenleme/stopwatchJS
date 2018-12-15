@@ -64,19 +64,3 @@ function reset() {
   startOrStopControl.innerHTML = 'Start';
   startOrStopControl.className = 'start control-button';
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
