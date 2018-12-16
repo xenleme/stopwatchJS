@@ -11,10 +11,14 @@
 <body>
   <div class="container">
     <div class="subject">
-      <input type="text" id="subjectInput">
-      <button class="subject-btn" onclick="getSubject()">Add</button>
-      <button class="subject-btn-clear" onclick="removeOutput()">Clear</button>
-      <span class="subject-output" id="subjectOutput"></span>
+      <input type="text" class="subject-input" id="subjectInput" placeholder="Enter a subject to measure the time...">
+      <button class="subject-btn" onclick="getSubject()">
+        <span>+</span>
+      </button>
+      <button class="subject-btn subject-btn-clear" onclick="removeOutput()">
+        <span>-</span>
+      </button>
+      <p class="subject-output" id="subjectOutput"></p>
     </div>
     <div class="stopwatch">
       <span class="stopwatch-digits" id="stopwatchDigits">00:00:00</span>

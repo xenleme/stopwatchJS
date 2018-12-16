@@ -5,7 +5,7 @@
 .container
   max-width: 960px
   margin: 0 auto
-  padding-top: 180px
+  padding-top: 120px
   text-align: center
 
 .stopwatch
@@ -35,11 +35,40 @@
 
 .reset
   background-color: $stopwatch-button-reset-color
-  color: darken($stopwatch-button-reset-content-color, 7%)
+  color: $stopwatch-button-reset-content-color
 
-.start, .stop, .reset
+.start, .stop, .reset, .subject-input, .subject-btn
   opacity: .6
   transition: .2s ease-in-out
   &:hover
     opacity: .8
     cursor: pointer
+
+.subject
+  margin-bottom: 70px
+
+.subject-input, .subject-output
+  font-size: .9em
+  font-family: Verdana
+  color: $subject-input-content
+
+
+.subject-input
+  width: 350px
+  height: 35px
+  background-color: $subject-input
+  padding-left: 7px
+  margin: 0 5px 10px 0
+  border: none
+  border-radius: 4px
+
+.subject-btn
+  width: 34px
+  height: 34px
+  font-family: Verdana
+  background-color: $subject-btn
+  color: $subject-btn-content
+  line-height: 34px
+  border-radius: 4px
+  span
+    font-size: 1.3em

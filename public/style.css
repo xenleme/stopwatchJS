@@ -45,11 +45,10 @@ a {
   font-family: "Digital";
   src: url("../public/fonts/digital-7-italic.ttf");
 }
-
 .container {
   max-width: 960px;
   margin: 0 auto;
-  padding-top: 180px;
+  padding-top: 120px;
   text-align: center;
 }
 
@@ -70,7 +69,6 @@ a {
   border-radius: 50%;
   margin-right: 20px;
 }
-
 .control-button:last-child {
   margin-right: 0;
 }
@@ -90,12 +88,44 @@ a {
   color: #dbdbdb;
 }
 
-.start, .stop, .reset {
-  opacity: .6;
-  transition: .2s ease-in-out;
+.start, .stop, .reset, .subject-input, .subject-btn {
+  opacity: 0.6;
+  transition: 0.2s ease-in-out;
+}
+.start:hover, .stop:hover, .reset:hover, .subject-input:hover, .subject-btn:hover {
+  opacity: 0.8;
+  cursor: pointer;
 }
 
-.start:hover, .stop:hover, .reset:hover {
-  opacity: .8;
-  cursor: pointer;
+.subject {
+  margin-bottom: 70px;
+}
+
+.subject-input, .subject-output {
+  font-size: 0.9em;
+  font-family: Verdana;
+  color: #dbdbdb;
+}
+
+.subject-input {
+  width: 350px;
+  height: 35px;
+  background-color: #3d3d3d;
+  padding-left: 7px;
+  margin: 0 5px 10px 0;
+  border: none;
+  border-radius: 4px;
+}
+
+.subject-btn {
+  width: 34px;
+  height: 34px;
+  font-family: Verdana;
+  background-color: #3d3d3d;
+  color: #dbdbdb;
+  line-height: 34px;
+  border-radius: 4px;
+}
+.subject-btn span {
+  font-size: 1.3em;
 }
