@@ -5,7 +5,7 @@
 .container
   max-width: 960px
   margin: 0 auto
-  padding-top: 120px
+  padding: 120px 10px 0 10px
   text-align: center
 
 .stopwatch
@@ -77,3 +77,25 @@
   background-color: darken($subject-btn, 12%)
 
 
+// Mediaqueries
+
+@media (max-width: 600px)
+  .stopwatch-digits
+    font-size: 8em
+
+@media (max-width: 475px)
+  .stopwatch-digits
+    font-size: 6em
+  .subject-input
+    display: block
+    margin: 10px auto
+  .subject-output
+    margin-top: 20px
+
+@media (max-width: 320px)
+  .stopwatch-digits
+    font-size: 5em
+  .subject-input
+    width: 300px
+    ::-webkit-input-placeholder, ::-moz-placeholder, :-ms-input-placeholder, ::placeholder
+    font-size: .8em
