@@ -1,0 +1,22 @@
+{
+  "name": "stopwatchjs",
+  "version": "1.0.0",
+  "description": "Simple stopwatch application written using native javascript.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch src/sass --output public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xenleme/stopwatchJS.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xenleme/stopwatchJS/issues"
+  },
+  "homepage": "https://github.com/xenleme/stopwatchJS#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
