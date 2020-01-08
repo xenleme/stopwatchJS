@@ -1,15 +1,77 @@
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -43,7 +105,7 @@ a {
 
 @font-face {
   font-family: "Digital";
-  src: url("../public/fonts/digital-7-italic.ttf");
+  src: url("../src/fonts/digital-7-italic.ttf");
 }
 
 .container {
@@ -90,12 +152,20 @@ a {
   color: #dbdbdb;
 }
 
-.start, .stop, .reset, .subject-input, .subject-btn {
+.start,
+.stop,
+.reset,
+.subject-input,
+.subject-btn {
   opacity: .6;
   transition: .2s ease-in-out;
 }
 
-.start:hover, .stop:hover, .reset:hover, .subject-input:hover, .subject-btn:hover {
+.start:hover,
+.stop:hover,
+.reset:hover,
+.subject-input:hover,
+.subject-btn:hover {
   opacity: .8;
   cursor: pointer;
 }
@@ -104,7 +174,8 @@ a {
   margin-bottom: 45px;
 }
 
-.subject-input, .subject-output {
+.subject-input,
+.subject-output {
   font-size: .9em;
   font-family: Verdana;
   color: #dbdbdb;
@@ -148,10 +219,12 @@ a {
   .stopwatch-digits {
     font-size: 6em;
   }
+
   .subject-input {
     display: block;
     margin: 10px auto;
   }
+
   .subject-output {
     margin-top: 20px;
   }
@@ -161,6 +234,7 @@ a {
   .stopwatch-digits {
     font-size: 5em;
   }
+
   .subject-input {
     width: 300px;
     font-size: .8em;
